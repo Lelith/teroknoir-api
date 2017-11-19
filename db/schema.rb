@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171119105111) do
+ActiveRecord::Schema.define(version: 20171119110727) do
 
   create_table "places", force: :cascade do |t|
     t.string "name"
@@ -18,8 +18,12 @@ ActiveRecord::Schema.define(version: 20171119105111) do
     t.string "country"
     t.string "street"
     t.string "nr"
+    t.string "city"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+# Could not dump table "sqlite_stat1" because of following StandardError
+#   Unknown type '' for column 'tbl'
 
 end

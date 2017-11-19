@@ -6,6 +6,7 @@ one:
   country: MyString
   street: MyString
   nr: MyString
+  city: MyString
 
 two:
   name: MyString
@@ -13,3 +14,4 @@ two:
   country: MyString
   street: MyString
   nr: MyString
+  city: MyString
